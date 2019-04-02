@@ -1,0 +1,136 @@
+.nav{
+    color:#777777;
+    float: right;
+    width: 30%;
+    /* margin:50px; */
+    padding:0px;;
+  }
+
+  .nav a {
+    float: right;
+    color: #777777;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+  
+  
+  .nav a:hover {
+      background-color: #4aaaa5;
+      color: white;
+    }
+
+.fixedheader{
+    position:fixed;
+    top:0px;
+    left: 0px;
+    width:100%;
+    background:#4aaaa5;
+    padding: 30px; 
+}
+
+.portfolio{
+    border-style: solid;
+    width:250px;
+    margin: 100px;
+    position: default; 
+    float: left;
+    padding: 20px;
+    width: 45%;
+    height: 800px;
+}
+
+
+h3{
+    font-size: 30px;
+    color:#4aaaa5; 
+}
+
+.titles{
+    padding: 20px;
+    width: 12%;
+    font-size:30px;
+    margin:50px;
+    float:left;
+    background: #4aaaa5;
+    color:#ffffff;
+    position: sticky;
+
+}
+
+.image{
+    position:relative; 
+    width: 100%; 
+}
+
+h2{
+    position:absolute;
+    top:350px;
+    left: 405px;
+    width: 18%;
+    background:#4aaaa5;
+    text-align: center;
+    color:white;
+}
+
+h4{
+    position:absolute;
+    top:350px;
+    left: 605px;
+    width: 18%;
+    font-size:20px;
+    background:#4aaaa5;
+    text-align: center;
+    color:white;
+}
+
+h5{
+    position:absolute;
+    top:550px;
+    left: 405px;
+    width: 18%;
+    font-size:20px;
+    background:#4aaaa5;
+    text-align: center;
+    color:white;
+    
+}
+
+h6{
+    position:absolute;
+    top:530px;
+    left: 605px;
+    width: 18%;
+    font-size:20px;
+    background:#4aaaa5;
+    text-align: center;
+    color:white;
+}
+
+h7{
+    position:absolute;
+    top:750px;
+    left: 405px;
+    width: 18%;
+    font-size:20px;
+    background:#4aaaa5;
+    text-align: center;
+    color:white;
+}
+
+
+
+.footer{
+    padding:5px;
+    width: 100%;
+    left:0px;
+    /* margin:300px; */
+    bottom: 0px;
+    /* float: right;  */
+    background-color: #666666;
+    text-align: center;
+    position:fixed;
+}
+
+
