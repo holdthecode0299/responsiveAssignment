@@ -1,47 +1,29 @@
-h2{
-    padding: 20px;
-    width: 12%;
-    margin:0px 50px 20px 100px;
-    float:left;
-    background: #4aaaa5;
-    color:#ffffff;
-    position: sticky;
-
-}
-
-
-.fixedheader{ 
-    position:sticky;
-    top:0px;
-    left: 0px;
-    width:100%;
-    background:#4aaaa5;
-    padding: 50px; 
-}
-
-.topnav{
+.nav{
     color:#777777;
     float: right;
     width: 30%;
-    margin:0px;
-    padding:0px;
-}
+    padding:0px;;
+    }
 
-  .topnav a {
+.nav a {
     float: right;
-    color: #777777;
+    color: white;
     text-align: center;
     padding: 10px 12px;
     text-decoration: none;
     font-size: 17px;
     }
+
+
+.topnav{
+  margin-right:20px;
+}
   
-  .topnav a:hover {
-    background-color: #4aaaa5;
+.navbar-brand{
+    margin-left: 20px;
     color: white;
   }
   
-
 
   /* .pattern{
     background-image: url("img/pipes.png");
@@ -57,17 +39,21 @@ h2{
 .pattern{
     background-image: url("img/pipes.png");
     background-color: #333333;
+    height:100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bio{
-    border-style: solid;
+    border-style: groove;
     width:960px;
-    margin: 50px 100px 100px 100px;
+    margin: 100px 100px 150px 100px;
     position: relative; 
     float: left;
     padding: 20px;
     width: 70%;
-    height: 350px;
+    height: 450px;
 
 }
 
@@ -78,10 +64,10 @@ h3{
 }
 
 .img-me{
-    width:50px;
+    width:100px;
     background-image: url(img/IMG_5874);
     background-size:contain;
-    width: 150px;
+    width: 250px;
     background-repeat: no-repeat;
 }
 
@@ -101,13 +87,6 @@ h3{
     position:fixed;
 }
 
-
-
-<style>
-{
-    box-sizing: border-box;
-}
-
 @media all and (max-width: 980px) {
     .navigation {
       justify-content: space-around;
@@ -124,9 +103,15 @@ h3{
             .container {
               margin: 0;
             }
+        }
+
+    }
+}
 
 
-@media screen all (max-width: 640px){
+
+
+/* @media screen all (max-width: 640px){
     .navigation {
         position: static; 
     }
@@ -143,5 +128,4 @@ h3{
 
 
 @media only screen and (min-width: 980px){
-    width:100% 
-}
+    width:100% }
